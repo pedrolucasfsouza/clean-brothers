@@ -5,6 +5,7 @@ export const Container = styled.div`
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  align-content: center;
   background: radial-gradient(
     50% 50% at 43.18% 54.97%,
     #9eafe0 0%,
@@ -21,6 +22,7 @@ export const Container = styled.div`
     color: white;
     margin: 10px 0px;
     font-weight: 400;
+    text-align: center;
   }
   p {
     font-weight: 500;

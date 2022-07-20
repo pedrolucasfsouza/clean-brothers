@@ -88,6 +88,9 @@ export const ContainerBoxers = styled.div`
 
   @media (max-width: 650px) {
     flex-direction: column;
+    & > div {
+      margin-top: 10px;
+    }
   }
 
   h2 {

@@ -35,7 +35,8 @@ export const Text = styled.div`
     font-size: 1.6rem;
     font-weight: 600;
     color: #5674c9;
-    line-height: 2.5;
+    line-height: 1.5;
+    text-align: center;
   }
   h2 {
     font-size: 1rem;
@@ -67,7 +68,8 @@ export const ContainerBoxers = styled.div`
   justify-content: space-around;
 
   @media (max-width: 650px) {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   h2 {
@@ -86,7 +88,9 @@ export const Box = styled.div`
   border-radius: 1rem;
   margin-bottom: 10px;
   @media (max-width: 650px) {
-    width: 90%;
+    width: 45%;
+    padding: 0rem 0rem;
+    text-align: center;
   }
   p {
     font-weight: 200;
@@ -100,6 +104,6 @@ export const Box = styled.div`
     margin: 10px 0px;
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 2.5;
+    line-height: 1.5;
   }
 `;
