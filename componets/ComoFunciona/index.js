@@ -5,6 +5,7 @@ import { BiChair, BiBed } from "react-icons/bi";
 import { FaCouch } from "react-icons/fa";
 import { TbBabyCarriage } from "react-icons/tb";
 import { AiFillCar } from "react-icons/ai";
+import { GiBed } from "react-icons/gi"
 
 export default function ComoFunciona() {
   return (
@@ -15,24 +16,24 @@ export default function ComoFunciona() {
         </Text>
         <ContainerBoxers>
           <Box>
-            <BiChair size="5em"></BiChair>
+            <BiChair size="5em"color="#454545"></BiChair>
+            <h1>HIGIENIZAÇÃO DE CADEIRAS</h1>
+          </Box>
+          <Box>
+            <FaCouch size="5em"color="#454545"></FaCouch>
             <h1>HIGIENIZAÇÃO DE SOFÁ</h1>
           </Box>
           <Box>
-            <FaCouch size="5em"></FaCouch>
-            <h1>HIGIENIZAÇÃO DE SOFÁ</h1>
+            <TbBabyCarriage size="5em" color="#454545"></TbBabyCarriage>
+            <h1>HIGIENIZAÇÃO DE CARRINHO DE BEBÊ</h1>
           </Box>
           <Box>
-            <TbBabyCarriage size="5em"></TbBabyCarriage>
-            <h1>HIGIENIZAÇÃO DE SOFÁ</h1>
+            <GiBed size="5em"color="#454545"></GiBed>
+            <h1>HIGIENIZAÇÃO DE CAMA / COLCHÃO</h1>
           </Box>
           <Box>
-            <BiBed size="5em"></BiBed>
-            <h1>HIGIENIZAÇÃO DE SOFÁ</h1>
-          </Box>
-          <Box>
-            <AiFillCar size="5em"></AiFillCar>
-            <h1>HIGIENIZAÇÃO DE SOFÁ</h1>
+            <AiFillCar size="5em"color="#454545"></AiFillCar>
+            <h1>HIGIENIZAÇÃO ESTOFADO AUTOMOTIVO</h1>
           </Box>
         </ContainerBoxers>
       </Content>

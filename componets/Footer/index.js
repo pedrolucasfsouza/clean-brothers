@@ -36,7 +36,7 @@ export default function Footer() {
         <Box>
           <h1>CNPJ:</h1>
           <Descricao>
-            <p>111.1111.1111..111/5555</p>
+            <p>37.026.558/0001-56</p>
           </Descricao>
         </Box>
       </Content>

@@ -101,8 +101,9 @@ export const Box = styled.div`
   }
   h1 {
     color: var(--text-title);
-    margin: 10px 0px;
-    font-size: 1.3rem;
+    margin: 15px 0px;
+    font-size: 1.1rem;
+    text-align: center;
     font-weight: 600;
     line-height: 1.5;
   }

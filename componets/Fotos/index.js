@@ -20,7 +20,7 @@ export default function ComoFunciona() {
         <ContainerBoxers>
           <Box>
             <Boxitem>
-              <Image src="/trabalho1.png" width={350} height={320} />
+              <Image src="/fred.png" width={350} height={320} />
             </Boxitem>
           </Box>
           <Box>

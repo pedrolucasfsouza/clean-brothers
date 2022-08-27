@@ -94,6 +94,10 @@ export const ContainerBoxers = styled.div`
     color: var(--blue-hard);
     font-size: 1.2rem;
   }
+  h1{
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
 `;
 
 export const Box = styled.div`
