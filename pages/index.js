@@ -18,7 +18,7 @@ export default function Home() {
       <div className="container">
         <Head>
           <title>
-            Clean Brother - Higienização de sofa Vila Velha, Serra e Grande
+            Clean Brothers - Higienização de sofa Vila Velha, Serra e Grande
             Vitória.
           </title>
           <link rel="icon" href="/favicon.ico" />
