@@ -1,5 +1,5 @@
-import { Container, Content, Text, SmartPhone } from "./styles";
 import Image from "next/image";
+import { Container, Content, SmartPhone, Text } from "./styles";
 
 export default function Header() {
   return (
@@ -14,7 +14,9 @@ export default function Header() {
             de veículos, tapetes, poltronas, colchões, bebê conforto, carrinho
             de bebê, e etc.
           </p>
-          <a href="http://app.boleta.ai/register">Começar Agora</a>
+          <a href="https://api.whatsapp.com/send?phone=5527998388435">
+            Começar Agora
+          </a>
         </Text>
         <SmartPhone>
           <Image src="/iphone13.png" width={480} height={470} />

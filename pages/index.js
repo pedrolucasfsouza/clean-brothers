@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Header from "../componets/Header/index";
-import NextLevel from "../componets/NextLevel/index";
+import Clientes1 from "../componets/Clientes/index";
 import ComoFunciona from "../componets/ComoFunciona/index";
-import Plans from "../componets/Plans/index";
 import Footer from "../componets/Footer/index";
 import Fotos from "../componets/Fotos/index";
-import Clientes1 from "../componets/Clientes/index";
+import Header from "../componets/Header/index";
+import NextLevel from "../componets/NextLevel/index";
+import Plans from "../componets/Plans/index";
 
 import { Container } from "../componets/styles";
 
@@ -26,7 +26,7 @@ export default function Home() {
         <Container>
           <a
             className="whatsapp-link"
-            href="https://api.whatsapp.com/send?phone=5527992964913"
+            href="https://api.whatsapp.com/send?phone=5527998388435"
             target="_blank"
           >
             <i className="fa fa-whatsapp"></i>

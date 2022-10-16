@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Content, Text, AnimationContainer } from "./styles";
 import Lottie from "react-lottie";
 import Finance from "../../public/animations/colchao.json";
+import { AnimationContainer, Container, Content, Text } from "./styles";
 
 export default function NextLevel() {
   const defaultOptions = {
@@ -25,7 +25,9 @@ export default function NextLevel() {
             de veículos, tapetes, poltronas, colchões, bebê conforto, carrinho
             de bebê, e etc.
           </p>
-          <a href="http://app.boleta.ai/register">Agendar Agora</a>
+          <a href="https://api.whatsapp.com/send?phone=5527998388435">
+            Agendar Agora
+          </a>
         </Text>
         <AnimationContainer>
           <Lottie options={defaultOptions} height="100%" width="80%" />
