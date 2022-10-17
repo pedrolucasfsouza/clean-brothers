@@ -26,7 +26,7 @@ export default function Home() {
         <Container>
           <a
             className="whatsapp-link"
-            href="https://api.whatsapp.com/send?phone=5527998388435"
+            href="https://api.whatsapp.com/send?phone=5527992918521"
             target="_blank"
           >
             <i className="fa fa-whatsapp"></i>
